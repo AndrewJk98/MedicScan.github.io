@@ -1,0 +1,129 @@
+.layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 8px;
+}
+
+.header { 
+  grid-area: header; 
+  background-color: #B2BABB;
+}
+.main { grid-area: main; }
+.footer { 
+  grid-area: footer; 
+  background-color: #1C2833;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  float: left;
+  margin-left: 30%;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+} 
+#no{
+  margin-left: 0px;
+  margin-top: 80px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 280px;
+    margin-right: 30px;
+    float: left;
+}
+
+.banner{
+  width: 50%;
+  height: 80%;
+  margin: 20px 20px;
+  float: left;
+}
+
+.test{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 10px 40px;
+  color: #1C2833;
+}
+
+.logo{
+  width: 40px;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 7px;
+}
+
+.boton{
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: 240px;
+  margin-bottom: 20px;
+}
+
+.contactanos{
+  height: 35%;
+  height: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 20px;
+  float: left;
+  margin: 20px 100px;
+}
+
+.hacemos{
+  height: 35%;
+  height: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 12px;
+  margin: 20px 0;
+  float: left;
+}
+
+.conocenos{
+  height: 35%;
+  height: auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 12px;
+  float: left;
+  margin: 20px 40px;
+}
+
+.logos{
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+}
+
+
