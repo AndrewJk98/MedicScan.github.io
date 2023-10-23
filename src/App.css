@@ -126,4 +126,11 @@ button{
   margin: 0 5px;
 }
 
+#buttons{
+  float: right;
+  display: block;
+}
 
+#news{
+text-align: center;
+}

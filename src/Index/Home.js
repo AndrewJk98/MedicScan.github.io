@@ -16,8 +16,6 @@ function Home(){
               ¿Como saber si tengo ETS?
             </h1>
             <div>
-              
-              <button id='no' href="" >Noticias</button>
               <button href='' type='submit'>
                 Estoy suscrito
               </button>
