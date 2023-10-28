@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MedicScan.github.io/static/css/main.6f5c0901.css",
+    "main.js": "/MedicScan.github.io/static/js/main.a969724a.js",
+    "static/media/banner_1.jpg": "/MedicScan.github.io/static/media/banner_1.bdb62cda6da036e6631a.jpg",
+    "static/media/banner_2.jpg": "/MedicScan.github.io/static/media/banner_2.07fc831f2b74fd9f858b.jpg",
+    "static/media/fb.png": "/MedicScan.github.io/static/media/fb.55f99f4109d5f2b4c675.png",
+    "static/media/banner_3.jpg": "/MedicScan.github.io/static/media/banner_3.07521b8d81f7328ce1c0.jpg",
+    "static/media/ig.png": "/MedicScan.github.io/static/media/ig.b2373194ab174a4568fe.png",
+    "static/media/its.png": "/MedicScan.github.io/static/media/its.975108dbfcf075a47f32.png",
+    "index.html": "/MedicScan.github.io/index.html",
+    "main.6f5c0901.css.map": "/MedicScan.github.io/static/css/main.6f5c0901.css.map",
+    "main.a969724a.js.map": "/MedicScan.github.io/static/js/main.a969724a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f5c0901.css",
+    "static/js/main.a969724a.js"
+  ]
+}
