@@ -1,9 +1,10 @@
 import React from 'react';
-import banner from '../img/banner.jpg'
+import its from '../img/its.png'
 import fb from '../img/fb.png'
 import ig from '../img/ig.png'
 import logo from '../img/logo.png'
 import tw from '../img/tw.png'
+
 
 
 function Noticias(){
@@ -24,9 +25,49 @@ function Noticias(){
           </div>
           <div className="main">
             <div>
-              <img className='banner' src={banner}/>
+              <img className='banner' src={its}/>
             </div>
-            
+            <div className='tables'>
+              <table>
+                <tr>
+                  <th>Como enfrentar las ITS?</th>
+                </tr>
+                <tr>
+                  <td>
+                  Las infecciones de transmisión sexual (ITS) son un problema de salud pública grave que afecta a personas de todas las edades, géneros y orientaciones sexuales. Sin embargo, hay muchas cosas que puedes hacer para protegerte de las ITS y enfrentarlas si las contraes.<br/>
+                  <br/>Prevención <br/><br/>
+                  La mejor manera de enfrentar las ITS es prevenirlas. Aquí hay algunos consejos: <br/>
+                  <ul>
+                    <li>Usa condones o barreras de látex durante todas las relaciones sexuales, vaginales, anales y orales.</li>
+                    <li>Hazte pruebas de detección de ITS regularmente, especialmente si tienes múltiples parejas sexuales o si no conoces el historial sexual de tu pareja.</li>
+                    <li>Ten una relación monógama con una pareja que también se haya hecho pruebas de detección de ITS.</li>
+                    <li>Evita el uso de drogas inyectables.</li>
+                    <li>Vacúnate contra el virus del papiloma humano (VPH) y la hepatitis B.</li>
+                  </ul>
+                  Tratamiento
+                  <br/> <br/>
+                  Si contraes una ITS, hay muchos tratamientos disponibles. Es importante que busques atención médica lo antes posible para evitar complicaciones. 
+                  El tipo de tratamiento que recibas dependerá de la ITS que tengas.
+                  <br/>
+                  Algunos tratamientos comunes para las ITS incluyen:
+                  <ul>
+                    <li>Antibióticos: para tratar ITS bacterianas como la gonorrea, la clamidia y la sífilis.</li>
+                    <li>Antivirales: para tratar ITS virales como el herpes simple, el VIH y el VPH.</li>
+                    <li>Antifúngicos: para tratar ITS causadas por hongos, como la candidiasis.</li>
+                    
+                  </ul>
+                  Apoyo emocional
+                  <br/><br/>
+                  Contraer una ITS puede ser una experiencia estresante y emocional. Es importante que busques apoyo de tus amigos, familiares o un profesional de la salud mental.
+
+                  También hay muchos grupos de apoyo disponibles para personas con ITS. Estos grupos pueden ayudarte a conectarte con otras personas que están pasando por lo mismo y a obtener información y apoyo.
+
+                  Recuerda que las ITS no son el fin del mundo. Hay muchos tratamientos disponibles y puedes recuperarte por completo.
+                  </td>
+                </tr>
+                <hr/>
+              </table>
+            </div>
           </div>
           <div className="footer">
             <div className='contactanos'>

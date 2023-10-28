@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Noticias from './Noticias';
 import logo from '../img/logo.png';
-import banner from '../img/banner.jpg';
+import banner1 from '../img/banner_1.jpg';
 import ig from '../img/ig.png';
 import fb from '../img/fb.png';
 import tw from '../img/tw.png';
@@ -26,7 +26,7 @@ function Home(){
           </div>
           <div className="main">
             <div>
-              <img className='banner' src={banner}/>
+              <img className='banner' src={banner1}/>
             </div>
             <div className='test'>
                 <h2 >Inicia este TEST</h2>
