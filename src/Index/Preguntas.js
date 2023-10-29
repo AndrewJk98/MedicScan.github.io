@@ -7,6 +7,17 @@ import fb from '../img/fb.png';
 import tw from '../img/tw.png';
 
 function Preguntas(){
+  window.watsonAssistantChatOptions = {
+    integrationID: "65346469-1623-4a86-9d1f-9e75bc62eab6", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "d20a2605-14a7-4970-af05-df98370ea1f1", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
     return (
         <section className="layout">
           <div className="header">
